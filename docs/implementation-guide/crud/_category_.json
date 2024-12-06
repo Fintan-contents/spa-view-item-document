@@ -1,0 +1,8 @@
+{
+  "label": "CRUD機能を作る",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "本節では、省力化コンポーネントを使用してCRUD機能の実装を行う方法について説明します。"
+  }
+}
