@@ -7,10 +7,10 @@ title: サンプルアプリ
 
 ## 1. リポジトリをローカルにダウンロードする
 
-[リポジトリをダウンロード](https://github.com/Fintan-contents/dev-react-cs-example)するか、もしくは次のコマンドを入力してクローンしてください。
+[リポジトリをダウンロード](https://github.com/Fintan-contents/react-examples)するか、もしくは次のコマンドを入力してクローンしてください。
 
 ```bash
-git clone https://github.com/Fintan-contents/dev-react-cs-example.git
+git clone https://github.com/Fintan-contents/react-examples.git
 ```
 
 ## 2. パッケージをインストールする

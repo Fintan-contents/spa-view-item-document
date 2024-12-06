@@ -90,7 +90,7 @@ OpenAPI からモックサーバを簡単に立ち上げられるツールとし
 - [Prism 公式サイト](https://stoplight.io/open-source/prism/)
 
 :::info
-[省力化コンポーネントのサンプルアプリケーション](https://github.com/Fintan-contents/dev-react-cs-example/tree/develop)では Mockoon を使用しています。
+[省力化コンポーネントのサンプルアプリケーション](https://github.com/Fintan-contents/react-examples/tree/main)では Mockoon を使用しています。
 :::
 
 モックサーバの起動が完了したら、入力項目に任意の値を入力して登録ボタンを押下してください。

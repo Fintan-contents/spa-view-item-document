@@ -13,7 +13,7 @@ title: 本節のゴール
 
 ![CRUD画面の画像](../../../static/img/crud.png)
 
-ここでは[サンプルアプリ](https://github.com/Fintan-contents/dev-react-cs-example/tree/develop)の`todo/page.tsx`、`todo/page.view.ts`、`todo/TodoXxxModal.tsx`ファイルを使用します。
+ここでは[サンプルアプリ](https://github.com/Fintan-contents/react-examples/tree/main)の`todo/page.tsx`、`todo/page.view.ts`、`todo/TodoXxxModal.tsx`ファイルを使用します。
 
 `todo/page.tsx`は CRUD 機能を実装したデモ画面を表示するファイル、`todo/page.view.ts`では View 定義を行うファイル、
 `todo/TodoXxxModal.tsx`は登録・更新・削除機能を実装したコンポーネントのファイルとして使用します。

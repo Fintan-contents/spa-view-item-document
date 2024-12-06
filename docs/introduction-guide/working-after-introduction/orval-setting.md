@@ -28,7 +28,7 @@ OpenAPI 仕様が定義された `openapi.yml` を配置します。
 ```
 
 :::info
-省力化コンポーネントのサンプルアプリでは[openapi_todo.yaml](https://github.com/Fintan-contents/dev-react-cs-example/blob/develop/openapi/openapi_todo.yaml)を使用しています。  
+省力化コンポーネントのサンプルアプリでは[openapi_todo.yaml](https://github.com/Fintan-contents/react-examples/blob/main/openapi/openapi_todo.yaml)を使用しています。
 :::
 
 ## 2. orval.config.ts を作成する
@@ -49,7 +49,7 @@ OpenAPI 仕様が定義された `openapi.yml` を配置します。
   ※ `mutator` には、手順 3 で作成するカスタムインスタンスを設定してください。
 
 :::info
-省力化コンポーネントのサンプルアプリでは[orval.config.ts](https://github.com/Fintan-contents/dev-react-cs-example/blob/develop/orval.config.ts)を使用しています。
+省力化コンポーネントのサンプルアプリでは[orval.config.ts](https://github.com/Fintan-contents/react-examples/blob/main/orval.config.ts)を使用しています。
 :::
 
 ## 3. Axios のカスタムインスタンスを作成する
@@ -70,7 +70,7 @@ Orval に設定するための Axios のカスタムインスタンスを作成�
 | 種類       | 説明                                                                                                                                                                                                                                                                                                                                       |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | シンプル版 | <ul><li>最低限必要な設定が記述されたシンプルな構成</li><li>API リクエストの返り値の型は、`Promise<any>` （TanStack Query を用いた場合と同様）</li></ul>※作成方法は、[Orval の公式サイト](https://orval.dev/guides/custom-axios#custom-instance)を参照してください                                                                          |
-| 拡張版     | <ul><li>シンプル版の設定に加え、キャンセル時やタイムアウト時のエラーハンドリングが記述された拡張版</li><li>API リクエストの返り値の型は、`Promise<AxiosResponse<any, any>>`</li></ul>※作成方法は、[省力化コンポーネントのサンプルアプリケーション](https://github.com/Fintan-contents/dev-react-cs-example/tree/develop)を参照してください |
+| 拡張版     | <ul><li>シンプル版の設定に加え、キャンセル時やタイムアウト時のエラーハンドリングが記述された拡張版</li><li>API リクエストの返り値の型は、`Promise<AxiosResponse<any, any>>`</li></ul>※作成方法は、[省力化コンポーネントのサンプルアプリケーション](https://github.com/Fintan-contents/react-examples/tree/main)を参照してください |
 
 ## 4. コードを自動生成する
 
@@ -155,7 +155,7 @@ paths:
 </details>
 
 <h4>2. orval.config.ts を作成する</h4>
-[省力化コンポーネントのサンプルアプリで使用している設定ファイル](https://github.com/Fintan-contents/dev-react-cs-example/tree/develop)と同様の内容で作成します。  
+[省力化コンポーネントのサンプルアプリで使用している設定ファイル](https://github.com/Fintan-contents/react-examples/tree/main)と同様の内容で作成します。  
 ※ `target` には、1で作成したymlファイルを指定します。
 
 ```yaml

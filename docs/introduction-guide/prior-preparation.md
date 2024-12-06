@@ -46,14 +46,14 @@ title: 事前準備
 
 ## 導入ツールのダウンロード
 
-省力化コンポーネントの資材をインストールするためのツールが、GitHub の [dev-react-cs-component](https://github.com/Fintan-contents/dev-react-cs-component) リポジトリに格納されています。
+省力化コンポーネントの資材をインストールするためのツールが、GitHub の [spa-view-item-component](https://github.com/Fintan-contents/spa-view-item-component) リポジトリに格納されています。
 
 Git をインストールしている場合は、以下のコマンドでリポジトリをクローンしてください。
 
 ```bash title="Terminal"
-$ git clone https://github.com/Fintan-contents/dev-react-cs-component.git
+$ git clone https://github.com/Fintan-contents/spa-view-item-component.git
 ```
 
 Git をインストールしていない、もしくは使わない場合は、以下のリンクから zip ファイルをダウンロードし、任意の場所に解凍してください。
 
-[GitHub から zip ファイルをダウンロード](https://github.com/Fintan-contents/dev-react-cs-component/archive/refs/heads/main.zip)
+[GitHub から zip ファイルをダウンロード](https://github.com/Fintan-contents/spa-view-item-component/archive/refs/heads/main.zip)

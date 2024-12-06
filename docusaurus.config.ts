@@ -10,12 +10,12 @@ const config: Config = {
   url: "https://fintan-contents.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/dev-react-cs-document/",
+  baseUrl: "/spa-view-item-document/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "Fintan-contents", // Usually your GitHub org/user name.
-  projectName: "dev-react-cs-document", // Usually your repo name.
+  projectName: "spa-view-item-document", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -37,14 +37,14 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-          "https://github.com/Fintan-contents/dev-react-cs-document/blob/work/",
+          "https://github.com/Fintan-contents/spa-view-item-document/blob/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/Fintan-contents/dev-react-cs-document/blob/work/",
+            "https://github.com/Fintan-contents/spa-view-item-document/blob/main/",
         },
         theme: {
           customCss: "./src/css/custom.css",
