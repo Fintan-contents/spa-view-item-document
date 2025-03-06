@@ -82,10 +82,15 @@ type RegisterUserView = CsView & {
   // highlight-start
   registerButton: CsMutateButtonClickEvent<{
     data: PostUserBody;
-  }>;
+  }, void, unknown>
   // highlight-end
 };
 ```
+
+:::info
+イベントの型定義は、後述する[イベントの初期化処理](#イベントを初期化する)を先に記述し、変数名をマウスホバーすることで簡単に取得できます。
+![エディタ機能で型を推論する](../../..//static/img/estimate-type.png)
+:::
 
 ## イベントを初期化する
 
