@@ -89,13 +89,40 @@ type RegisterUserView = CsView & {
 
 :::info
 イベントの型定義は、後述する[イベントの初期化処理](#イベントを初期化する)を先に記述し、変数名をマウスホバーした際のポップアップからコピーすると簡単に記述できます。
+
+具体的には以下の手順で型を記述します。
+
+1. イベントの型は未定義にしておく
+```tsx
+type RegisterUserView = CsView & {
+  // ...省略
+  terminalNum: CsInputNumberItem;
+  // registerButton: イベントの型は未定義のまま
+};
+```
+2. 先にイベントの初期化処理を記述する
+```tsx
+const useRegisterUserView = (): RegisterUserView => {
+  return useCsView({
+      // ...省略
+      registerButton: useCsRqMutateButtonClickEvent(usePostUser());
+  });
+};
+```
+3. 2.で記述した `registerButton` をマウスホバーする  
+※エディタの機能で変数の型がポップアップに表示されます。
+
 ![エディタ機能で型を推論する](../../..//static/img/estimate-type.png)
 
-この例では、ポップアップに表示される以下の内容をコピーし、そのまま `RegisterUserView` の中にペーストすれば型定義が記述できます。
+4. ポップアップに表示された内容をコピーし、1.の型定義にペーストする
 ```tsx
-registerButton: CsMutateButtonClickEvent<{
-  data: PostUserBody;
-}, void, unknown>
+type RegisterUserView = CsView & {
+  // ...省略
+  terminalNum: CsInputNumberItem;
+  registerButton: CsMutateButtonClickEvent<{
+    data: PostUserBody;
+  }, void, void>
+};
 ```
 :::
 
