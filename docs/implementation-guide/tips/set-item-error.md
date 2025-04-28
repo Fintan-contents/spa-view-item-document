@@ -21,7 +21,7 @@ return (
       event={view.registerButton}
       onCallApiError={(e) => {
         // 本来はイベント変数 e からエラーメッセージを取り出す
-        const errorMessage = "サーバーサイドで精査エラーがありました。";
+        const errorMessage = "サーバーサイドでバリデーションエラーが発生しました。";
         // highlight-start
         if (errorMessage && view.userName.setValidationMessage) {
           view.userName.setValidationMessage(errorMessage);
