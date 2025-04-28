@@ -82,7 +82,7 @@ type RegisterUserView = CsView & {
   // highlight-start
   registerButton: CsMutateButtonClickEvent<{
     data: PostUserBody;
-  }, void, unknown>
+  }, void, void>
   // highlight-end
 };
 ```
